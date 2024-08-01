@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS weather_app;
+USE weather_app;
+
+CREATE TABLE IF NOT EXISTS weather_logs (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    city VARCHAR(100) NOT NULL,
+    temperature FLOAT NOT NULL,
+    description VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

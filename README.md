@@ -1,6 +1,8 @@
 # Simple Weather App
 A weather application that fetches and displays weather information from an API using PHP, jQuery, AJAX, Bootstrap, CSS, and MySQL.
 
+![simple-weather-app](img/simple-weather-app.png)
+
 ### Install Process
 
 1. **Clone the repository:**
@@ -42,8 +44,7 @@ simple-weather-app/
 │
 ├── config.sample.php
 ├── index.html
-├── database/
-│   └── weather_app.sql
+├── database.sql
 ├── src/
 │   ├── api.php
 │   └── fetch_weather.php
